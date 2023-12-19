@@ -1,4 +1,4 @@
-# Add threadirqs kernel command line argument
+# Add preempt=full kernel command line argument
 on_chroot << EOF
     sed -i 's/$/ preempt=full/' /boot/cmdline.txt
 EOF
