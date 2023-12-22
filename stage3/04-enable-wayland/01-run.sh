@@ -8,5 +8,5 @@ on_chroot << EOF
     systemctl --user -M pi@ mask pipewire
     systemctl --user -M pi@ mask pipewire-pulse
     apt-get purge -y cups cups-common
-    apt-get autoremove
+    apt-get autoremove -y
 EOF
