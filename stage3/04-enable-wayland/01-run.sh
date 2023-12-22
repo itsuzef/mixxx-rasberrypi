@@ -10,4 +10,3 @@ on_chroot << EOF
     apt-get purge -y cups cups-common
     apt-get autoremove
 EOF
-install -m 644 files/lightdm.ini ${ROOTFS_DIR}/etc/lightdm/lightdm.conf
