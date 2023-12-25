@@ -16,7 +16,7 @@ Included:
 - i3blocks buttons inspired by [@EmperorJack](https://github.com/EmperorJack/mixxx-pi-config)
 - wallpaper from Unsplash by [Daniel Olah](https://unsplash.com/@danesduet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-## How to install on your Raspberry Pi 4
+## How to install on your Raspberry Pi 3/4/400/5
 
 - If you're familiar with flashing an SD card for the Pi, please follow whatever method you normally use. 
 
@@ -29,13 +29,13 @@ The instructions below use Balena Etcher:
 5. Select 'Flash from File' and pick the zip you downloaded earlier
 6. Select the SD card to flash to (check here that you're not overwriting something important!)
 7. Hit 'Flash!' and wait for it to be verified.
- 
- a) If you're using on a Raspberry Pi3(B+) follow the steps below before continuing to the next step.
-
 8. Remove the SD card and transfer it to your raspberry pi
 9. Turn on the raspberry pi (make sure it's plugged into a screen) and wait until mixxx shows up
 
 ### Important for running on Pi3 - remove threadirqs from boot commandline
+NOT REQUIRED FOR VERSIONS v0.9.0 AND ONWARDS
+Instructions left for older versions
+
 Between step 7 and 8 in the instructions above (after the SD card is flashed with the image but before you run it the first time on your Pi3). Open up /boot/cmdline.txt on whatever PC you used to do the flash, and remove the threadirqs part from the end of the line. Do not remove the whole line.
 
 It should look like this:
