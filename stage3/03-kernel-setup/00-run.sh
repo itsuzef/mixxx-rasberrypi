@@ -1,6 +1,6 @@
 # Add preempt=full kernel command line argument
 on_chroot << EOF
-    sed -i 's/$/ preempt=full/' /boot/cmdline.txt
+    sed -i 's/$/ preempt=full/' /boot/firmware/cmdline.txt
 EOF
 
 # Use the performance governor instead of ondemand which is default
