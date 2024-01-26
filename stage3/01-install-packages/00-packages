@@ -1,14 +1,12 @@
 git
 #omxplayer
 alsa-utils
-raspberrypi-ui-mods
 policykit-1
 rfkill
 fonts-droid-fallback
 fonts-liberation2 fonts-font-awesome
-arandr
 udevil systemd-timesyncd
-libgl1-mesa-dri libgles1 libgles2-mesa xcompmgr
+libgl1-mesa-dri libgles1 libgles2-mesa
 g++ git scons libportmidi-dev libopusfile-dev ffmpeg
 libshout-dev libtag1-dev libprotobuf-dev protobuf-compiler
 libusb-1.0-0-dev libfftw3-dev libmad0-dev portaudio19-dev
@@ -25,3 +23,4 @@ libglu1-mesa-dev
 cmake ccache
 debhelper markdown docbook-to-man devscripts
 lightdm foot sway i3blocks i3status wvkbd
+wdisplays firefox xwayland
