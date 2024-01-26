@@ -24,3 +24,4 @@ cmake ccache
 debhelper markdown docbook-to-man devscripts
 lightdm foot sway i3blocks i3status wvkbd
 wdisplays firefox xwayland
+syncthing
