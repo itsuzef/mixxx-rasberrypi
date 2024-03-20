@@ -47,9 +47,8 @@ This disables `threadirqs` option which causes a kernel panic on the Pi3.
 
 ### Optional steps:
 
-1. Set the waveforms to OpenGL - not set as default
-2. Use scp to copy music to the RPI after plugging in ethernet (username: `pi`, password: `mixxx`, home dir: `/home/pi/`) or plug in a usb stick
-3. WARNING do this at your own risk - this can corrupt your SD card or worse!! 
+1. Use scp to copy music to the RPI after plugging in ethernet (username: `pi`, password: `mixxx`, home dir: `/home/pi/`) or plug in a usb stick
+2. WARNING do this at your own risk - this can corrupt your SD card or worse!! 
 Overclock the raspberry pi. I found that as long as it has some sort
 of cooling solution an overclock to 2GHz on the Pi4 was completely stable. 
 I found adding this to your `/boot/config.txt` was stable:
@@ -64,7 +63,7 @@ Make sure you restart to see its effects. You will need a good power supply to e
 
 Extra debugging:
 
-Plugging in a keyboard and hitting `win+enter` will give you a terminal.
+Plugging in a keyboard and hitting `alt+enter` will give you a terminal.
 Logs for mixxx are available at: /home/pi/.mixxx/mixxx.log
 
 Original instructions of forked repo are in [pi-gen-readme](pi-gen-readme.md)
