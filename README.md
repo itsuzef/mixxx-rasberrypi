@@ -13,7 +13,7 @@ Included:
 - sway (i3 for wayland) window manager with autostart to Mixxx
 - Working OpenGL waveforms
 - Extra skins included for small screen by @dennisdebel and @timewasternl
-- i3blocks buttons inspired by [@EmperorJack](https://github.com/EmperorJack/mixxx-pi-config)
+- waybar and (useful) buttons
 - wallpaper from Unsplash by [Daniel Olah](https://unsplash.com/@danesduet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ## How to install on your Raspberry Pi 3/4/400/5
