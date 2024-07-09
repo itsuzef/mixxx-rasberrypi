@@ -20,17 +20,7 @@ Included:
 
 - If you're familiar with flashing an SD card for the Pi, please follow whatever method you normally use. 
 
-The instructions below use Balena Etcher:
-
-1. Get Balena Etcher: [https://www.balena.io/etcher/](https://www.balena.io/etcher/)
-2. Download the [latest release mixxx-pi zip](https://github.com/fayaaz/mixxx-pi-gen/releases/latest)
-3. Make sure your SD card is connected to the computer
-4. Open Balena Etcher
-5. Select 'Flash from File' and pick the zip you downloaded earlier
-6. Select the SD card to flash to (check here that you're not overwriting something important!)
-7. Hit 'Flash!' and wait for it to be verified.
-8. Remove the SD card and transfer it to your raspberry pi
-9. Turn on the raspberry pi (make sure it's plugged into a screen) and wait until mixxx shows up
+Instructions moved to [wiki](https://github.com/fayaaz/mixxx-pi-gen/wiki/How-to-install-on-your-Raspberry-Pi)
 
 ### Important for running on Pi3 - remove threadirqs from boot commandline
 NOT REQUIRED FOR VERSIONS v0.9.0 AND ONWARDS
