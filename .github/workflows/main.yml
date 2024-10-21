@@ -41,15 +41,15 @@ jobs:
     - run: ls -lah .ccache
     - name: Build
       run: sudo ./build.sh
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: debs
         path: deploy/*.deb
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: images
         path: deploy/*.zip
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: packages-info
         path: deploy/*.info
