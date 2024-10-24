@@ -1,5 +1,5 @@
 # Enable ssh.
-touch ${ROOTFS_DIR}/boot/ssh
+# touch ${ROOTFS_DIR}/boot/ssh
 
 # Boot to graphical by default
 on_chroot << EOF
