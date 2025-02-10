@@ -20,7 +20,7 @@ on_chroot << EOF
     mkdir -p build && cd build
     cmake \
       -DKEYFINDER=ON -DFFMPEG=ON -DMAD=ON -DMODPLUG=ON -DWAVPACK=ON -DBULK=ON \
-      -DOPTIMIZE=native -DCMAKE_INSTALL_PREFIX=/usr/ -S /code -B /code/build
+      -DCMAKE_INSTALL_PREFIX=/usr/ -S /code -B /code/build
     cmake --build /code/build --target install
     ccache -s
     cpack -G DEB
